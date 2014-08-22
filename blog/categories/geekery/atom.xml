@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Geekery | tombola]]></title>
+  <link href="http://tombola.github.io/blog/categories/geekery/atom.xml" rel="self"/>
+  <link href="http://tombola.github.io/"/>
+  <updated>2014-08-22T15:23:13+01:00</updated>
+  <id>http://tombola.github.io/</id>
+  <author>
+    <name><![CDATA[Tom Readings]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Eye Tracking]]></title>
+    <link href="http://tombola.github.io/blog/2014/03/11/Eye-Tracking/"/>
+    <updated>2014-03-11T00:00:00+00:00</updated>
+    <id>http://tombola.github.io/blog/2014/03/11/Eye-Tracking</id>
+    <content type="html"><![CDATA[<p>Eye tracking is on the way.</p>
+
+<p>I know, we&rsquo;ve had it for years, but its been tucked away in usability labs, and it cost a bomb.</p>
+
+<p>I&rsquo;ve been looking around to see if eye tracking might be within reach, cheap and off the shelf for usability testing. It doesn&rsquo;t seem to be quite there for my purposes, but we are tantalisingly close.</p>
+
+<p>First you had to hold your head still.</p>
+
+<p>Then you had to wear tiny cameras on a hat or glasses.</p>
+
+<p>Then you could use infra red cameras, but the hardware was expensive.</p>
+
+<p>Now it looks like we might be able to buy a compact, simple <strong>cheap</strong> <a href="https://theeyetribe.com/">device</a> to handle all the complicated stuff and develop all sorts of clever things over the top of it. This opens  up the field to experimentation, in the same way as the kinect did for full body sensing.</p>
+
+<iframe width="560" height="315" src="//www.youtube.com/embed/2q9DarPET0o" frameborder="0" allowfullscreen="1">Eye Tribe on Youtube</iframe>
+
+
+<p>The release of an sdk and developer kit prior to a user-ready product seems to be an encouraging trend. <a href="https://www.leapmotion.com/">Leap Motion</a> did a similar thing for hand gestures for example.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Markdown vs Referencing]]></title>
+    <link href="http://tombola.github.io/blog/2014/02/14/markdown-referencing/"/>
+    <updated>2014-02-14T00:00:00+00:00</updated>
+    <id>http://tombola.github.io/blog/2014/02/14/markdown-referencing</id>
+    <content type="html"><![CDATA[<p>I am quite a fan of <a href="http://daringfireball.net/projects/markdown/syntax">Markdown</a> for simplifying the process of writing online content. As well as using it on this blog, I have been using a slightly personalised version to write notes while reading. I think I have now discovered another niche subset of uses for (an extended version of) Markdown within education, to provide concise explanatory descriptions for academic referencing systems.</p>
+
+<p>If you are not familiar with Markdown, it is basically a really simple way of generating HTML (HyperText Markup Language). If I write</p>
+
+<pre><code>##This is a title
+</code></pre>
+
+<p>Then save my post, it gets processed so that I get heading text that looks like this:</p>
+
+<h2>This is a title</h2>
+
+<p>Thats possibly the simplest ever example, but when you add in images, links, block quotes, emphasis etc it becomes a really succinct way of laying out a page.</p>
+
+<p>Markdown really shines when compared to other methods of creating online content, such as <a href="http://en.wikipedia.org/wiki/WYSIWYG">wysiwyg</a> editors..</p>
+
+<p><img src="../images/wysiwyg_editor.png" alt="wysiwyg editor" /></p>
+
+<p>..because rather than the editor trying to guess what you intend to select and how you would like to combine various styles and formats, it gets precise instructions. This means that the output from markdown is much more reliably standardised.</p>
+
+<p>Standardisation is of course key to referencing and citation for academic works, and if a student/researcher is expected to be precise, then the explanation given to them must be equally precise. Whereas in most cases we are happy enough wysiwyg-ing our way through support resources, this is surely a situation where markdown can really help provide a structurally sound html base to create multiple citation examples etc. We can reliably style, highlight and comment them in detail, without worrying that the whole sections might (unnoticed) turn to gobbledy gook because I only selected 4 characters out of 5.</p>
+
+<div class="alert alert-info"><p>I should probably say here that I am well aware of the many brilliant reference management tools available to academics and students, and I realise they have the potential to take a lot of unnecessary faf out of preparing citations and bibliographies. There are however a lot of <strong>different</strong> tools, and they do not always have the same success manipulating bibliographic data, especially when captured from web resources. So it remains important to explain the principles of consistent referencing.</p></div>
+
+
+<h3>Summary</h3>
+
+<p>I am going to experiment with some simple extensions to markdown that will allow us to make concise, visually rich and interactive (tooltips) explanations for a confusing subject. I will write it up and <a href="https://github.com/tombola">share</a> if and when I get that far.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Simple Blogging]]></title>
+    <link href="http://tombola.github.io/blog/2014/02/10/simple-blogging/"/>
+    <updated>2014-02-10T00:00:00+00:00</updated>
+    <id>http://tombola.github.io/blog/2014/02/10/simple-blogging</id>
+    <content type="html"><![CDATA[<p><strong>This post is somewhat superceded by my move to <a href="https://medium.com/@tomreadings">medium.com</a></strong></p>
+
+<p>A blog seems a sensible thing to have, if only so that I have somewhere to write longer posts for reference on twitter.</p>
+
+<p>It gives me to put content I might want to share with someone, regardless of whether anyone finds it, or chooses to read it.</p>
+
+<p>So I have decided to make a blog. Simple to start, pretty later.</p>
+
+<p>The thing is, I have done this many time before, partly just to trial different platforms (<a href="http://wordpress.com/">wordpress</a>, <a href="https://www.blogger.com">blogger</a>, posterous, <a href="https://svbtle.com/">svtle</a>. Last time round I settled on posterous. For those of you (imaginary readers), that do not know, posterous was a blogging platform that linked in with services like twitter to spread your content across different channels. Unfortunately, posterous was bought out and closed down by twitter. I could have <a href="http://techcrunch.com/2013/02/15/posterous-will-shut-down-on-april-30th-co-founder-garry-tan-launches-posthaven-to-save-your-sites/">moved my posts</a> on to &lsquo;posthaven&rsquo;, but it didn&rsquo;t seem worth it. I am not a very frequent blogger, I didn&rsquo;t have too many posts.</p>
+
+<p>However, since the closure of my old blog I have found myself wanting to link to items that I had written up in some detail, and writing the posts up again was frustrating and incomplete. I realised that even a small amount of content can add up in value over time.</p>
+
+<p><em>Geek Alert - the following content will not be of interest to (admirably) low tech readers</em></p>
+
+<h3>Options for blogging</h3>
+
+<ol>
+<li>sign up to another (free) blogging <strong>service</strong> (wordpress/blogger/tumblr)</li>
+<li>install a blog or cms myself (wordpress/statamic/etc)</li>
+<li>go geek and use a static site generator (Jekyll/Octopress/ruhoh/nanoc)</li>
+</ol>
+
+
+<p>Predictably, I went with number 3. As a brief overview, rather than dynamically retrieving and rendering web content from a database (like wordpress etc), a static site generator creates simple HTML webpages to represent your content. It does this intelligently, making them look pretty and all, but the final result is a set of pages you could put on a usb stick and open in your browser, not requiring a webserver, database, etc.</p>
+
+<h4>Using a static site</h4>
+
+<p>The last time round I lost my content because it was wrapped up in someone elses platform and they decided to do something else with it. Thats fine, I&rsquo;m not bitter (really!), but it served as a useful reminder - service providers have their own priorities. If I want to keep hold of my posts etc, I need to ensure that it remains accessible to me. If I generate a static site, those files are entirely under my control. They require only the most simple, cheapest, low maintenance web server to present them on the web, and I can fiddle with them on my computer offline to my heart&rsquo;s content.</p>
+
+<p>The reason I chose Jekyll as my static site generator (there are <strong>so</strong> <a href="http://staticsitegenerators.net/">many</a> is that, fortuitously, <a href="http://techcrunch.com/2012/07/14/what-exactly-is-github-anyway/">github</a> will do the generation bit for me, and host my site for free (I genuinely love github). This does mean I am relying on a service provider to look after my blog again, but in this case our priorities are aligned. Even if github decides at a later date that they no longer wish to display my blog, their entire business model is based on securely storing peoples code, regardless of its function. So my blog should still be there, and I can move it if I want. Because I am using github, which has a spendid API, I can also use a tool like <a href="http://prose.io">prose.io</a> to create and edit my blog posts, if I would prefer to edit online.</p>
+]]></content>
+  </entry>
+  
+</feed>
