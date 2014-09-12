@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Geekery | tombola]]></title>
-  <link href="http://tombola.github.io/blog/categories/geekery/atom.xml" rel="self"/>
-  <link href="http://tombola.github.io/"/>
-  <updated>2014-08-22T15:32:04+01:00</updated>
-  <id>http://tombola.github.io/</id>
+  <link href="http://localhost:4000//blog/categories/geekery/atom.xml" rel="self"/>
+  <link href="http://localhost:4000//"/>
+  <updated>2014-09-12T09:54:24+01:00</updated>
+  <id>http://localhost:4000//</id>
   <author>
     <name><![CDATA[Tom Readings]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Eye Tracking]]></title>
-    <link href="http://tombola.github.io/blog/2014/03/11/Eye-Tracking/"/>
-    <updated>2014-03-11T00:00:00+00:00</updated>
-    <id>http://tombola.github.io/blog/2014/03/11/Eye-Tracking</id>
+    <link href="http://localhost:4000//blog/2014/03/11/Eye-Tracking/"/>
+    <updated>2014-03-11T16:00:00+00:00</updated>
+    <id>http://localhost:4000//blog/2014/03/11/Eye-Tracking</id>
     <content type="html"><![CDATA[<p>Eye tracking is on the way.</p>
 
 <p>I know, we&rsquo;ve had it for years, but its been tucked away in usability labs, and it cost a bomb.</p>
@@ -41,9 +41,9 @@
   
   <entry>
     <title type="html"><![CDATA[Markdown vs Referencing]]></title>
-    <link href="http://tombola.github.io/blog/2014/02/14/markdown-referencing/"/>
-    <updated>2014-02-14T00:00:00+00:00</updated>
-    <id>http://tombola.github.io/blog/2014/02/14/markdown-referencing</id>
+    <link href="http://localhost:4000//blog/2014/02/14/markdown-referencing/"/>
+    <updated>2014-02-14T16:00:00+00:00</updated>
+    <id>http://localhost:4000//blog/2014/02/14/markdown-referencing</id>
     <content type="html"><![CDATA[<p>I am quite a fan of <a href="http://daringfireball.net/projects/markdown/syntax">Markdown</a> for simplifying the process of writing online content. As well as using it on this blog, I have been using a slightly personalised version to write notes while reading. I think I have now discovered another niche subset of uses for (an extended version of) Markdown within education, to provide concise explanatory descriptions for academic referencing systems.</p>
 
 <p>If you are not familiar with Markdown, it is basically a really simple way of generating HTML (HyperText Markup Language). If I write</p>
@@ -76,9 +76,9 @@
   
   <entry>
     <title type="html"><![CDATA[Simple Blogging]]></title>
-    <link href="http://tombola.github.io/blog/2014/02/10/simple-blogging/"/>
-    <updated>2014-02-10T00:00:00+00:00</updated>
-    <id>http://tombola.github.io/blog/2014/02/10/simple-blogging</id>
+    <link href="http://localhost:4000//blog/2014/02/10/simple-blogging/"/>
+    <updated>2014-02-10T16:00:00+00:00</updated>
+    <id>http://localhost:4000//blog/2014/02/10/simple-blogging</id>
     <content type="html"><![CDATA[<p><strong>This post is somewhat superceded by my move to <a href="https://medium.com/@tomreadings">medium.com</a></strong></p>
 
 <p>A blog seems a sensible thing to have, if only so that I have somewhere to write longer posts for reference on twitter.</p>

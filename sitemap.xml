@@ -3,72 +3,79 @@
   
   
   <url>
-    <loc>http://tombola.github.io/blog/2014/08/14/Markdown-syntax/</loc>
-    <lastmod>2014-08-14T21:51:00+01:00</lastmod>
+    <loc>http://localhost:4000//blog/2014/04/17/Markdown-syntax/</loc>
+    <lastmod>2014-04-17T17:00:00+01:00</lastmod>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>http://tombola.github.io/blog/2014/03/26/What-are-computers-for/</loc>
-    <lastmod>2014-03-26T00:00:00+00:00</lastmod>
+    <loc>http://localhost:4000//blog/2014/03/26/What-are-computers-for/</loc>
+    <lastmod>2014-03-26T16:00:00+00:00</lastmod>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>http://tombola.github.io/blog/2014/03/21/Prezi-Desktop/</loc>
-    <lastmod>2014-03-21T00:00:00+00:00</lastmod>
+    <loc>http://localhost:4000//blog/2014/03/21/Prezi-Desktop/</loc>
+    <lastmod>2014-03-21T16:00:00+00:00</lastmod>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>http://tombola.github.io/blog/2014/03/11/Eye-Tracking/</loc>
-    <lastmod>2014-03-11T00:00:00+00:00</lastmod>
+    <loc>http://localhost:4000//blog/2014/03/11/Eye-Tracking/</loc>
+    <lastmod>2014-03-11T16:00:00+00:00</lastmod>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>http://tombola.github.io/blog/2014/02/14/markdown-referencing/</loc>
-    <lastmod>2014-02-14T00:00:00+00:00</lastmod>
+    <loc>http://localhost:4000//blog/2014/02/14/markdown-referencing/</loc>
+    <lastmod>2014-02-14T16:00:00+00:00</lastmod>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>http://tombola.github.io/blog/2014/02/11/New-Blog/</loc>
-    <lastmod>2014-02-11T00:00:00+00:00</lastmod>
+    <loc>http://localhost:4000//blog/2014/02/11/New-Blog/</loc>
+    <lastmod>2014-02-11T16:00:00+00:00</lastmod>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>http://tombola.github.io/blog/2014/02/10/simple-blogging/</loc>
-    <lastmod>2014-02-10T00:00:00+00:00</lastmod>
+    <loc>http://localhost:4000//blog/2014/02/10/simple-blogging/</loc>
+    <lastmod>2014-02-10T16:00:00+00:00</lastmod>
     <priority>0.8</priority>
   </url>
   
   
   <url>
-    <loc>http://tombola.github.io/blog/archives/</loc>
-    <lastmod>2014-08-22T15:32:04+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  <url>
-    <loc>http://tombola.github.io/blog/</loc>
-    <lastmod>2014-08-22T15:32:04+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  <url>
-    <loc>http://tombola.github.io/</loc>
-    <lastmod>2014-08-22T15:32:04+01:00</lastmod>
+    <loc>http://localhost:4000//</loc>
+    <lastmod>2014-09-12T09:54:24+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   
   <url>
-    <loc>http://tombola.github.io/posts/</loc>
-    <lastmod>2014-08-22T15:32:04+01:00</lastmod>
+    <loc>http://localhost:4000//blog/archives/</loc>
+    <lastmod>2014-09-12T09:54:24+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:4000//blog/</loc>
+    <lastmod>2014-09-12T09:54:24+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:4000//posts/</loc>
+    <lastmod>2014-09-12T09:54:24+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:4000//old_</loc>
+    <lastmod>2014-09-12T09:54:24+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>

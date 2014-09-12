@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Notifications | tombola]]></title>
-  <link href="http://tombola.github.io/blog/categories/notifications/atom.xml" rel="self"/>
-  <link href="http://tombola.github.io/"/>
-  <updated>2014-08-22T15:32:04+01:00</updated>
-  <id>http://tombola.github.io/</id>
+  <link href="http://localhost:4000//blog/categories/notifications/atom.xml" rel="self"/>
+  <link href="http://localhost:4000//"/>
+  <updated>2014-09-12T09:54:24+01:00</updated>
+  <id>http://localhost:4000//</id>
   <author>
     <name><![CDATA[Tom Readings]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[New Blog]]></title>
-    <link href="http://tombola.github.io/blog/2014/02/11/New-Blog/"/>
-    <updated>2014-02-11T00:00:00+00:00</updated>
-    <id>http://tombola.github.io/blog/2014/02/11/New-Blog</id>
+    <link href="http://localhost:4000//blog/2014/02/11/New-Blog/"/>
+    <updated>2014-02-11T16:00:00+00:00</updated>
+    <id>http://localhost:4000//blog/2014/02/11/New-Blog</id>
     <content type="html"><![CDATA[<p>I have a new blog. Intended subjects are Educational Technology, usability and accessibility, plus related issues.</p>
 
 <p>The blog doesn&rsquo;t have that much on it yet. I intend mainly to use it in association with <a href="https://twitter.com/tomreadings">twitter</a>, so if I post I will tweet a link. It also may look a little crude to start with. At some point I will jazz it up, but I am telling myself that to do so now would be procrastination..</p>

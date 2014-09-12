@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Thoughts | tombola]]></title>
-  <link href="http://tombola.github.io/blog/categories/thoughts/atom.xml" rel="self"/>
-  <link href="http://tombola.github.io/"/>
-  <updated>2014-08-22T15:32:04+01:00</updated>
-  <id>http://tombola.github.io/</id>
+  <link href="http://localhost:4000//blog/categories/thoughts/atom.xml" rel="self"/>
+  <link href="http://localhost:4000//"/>
+  <updated>2014-09-12T09:54:24+01:00</updated>
+  <id>http://localhost:4000//</id>
   <author>
     <name><![CDATA[Tom Readings]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[What Are Computers For?]]></title>
-    <link href="http://tombola.github.io/blog/2014/03/26/What-are-computers-for/"/>
-    <updated>2014-03-26T00:00:00+00:00</updated>
-    <id>http://tombola.github.io/blog/2014/03/26/What-are-computers-for</id>
+    <link href="http://localhost:4000//blog/2014/03/26/What-are-computers-for/"/>
+    <updated>2014-03-26T16:00:00+00:00</updated>
+    <id>http://localhost:4000//blog/2014/03/26/What-are-computers-for</id>
     <content type="html"><![CDATA[<!--<div class="alert alert-info">I tend to use the word &#8216;technology&#8217; liberally, but I am almost always referring to computerised systems, and in the main those that make use of the world wide web.</div>&#8211;>
 
 

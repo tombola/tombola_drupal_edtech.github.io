@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[tombola]]></title>
-  <link href="http://tombola.github.io/atom.xml" rel="self"/>
-  <link href="http://tombola.github.io/"/>
-  <updated>2014-08-22T15:32:04+01:00</updated>
-  <id>http://tombola.github.io/</id>
+  <link href="http://localhost:4000//atom.xml" rel="self"/>
+  <link href="http://localhost:4000//"/>
+  <updated>2014-09-12T09:54:24+01:00</updated>
+  <id>http://localhost:4000//</id>
   <author>
     <name><![CDATA[Tom Readings]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Markdown Syntax]]></title>
-    <link href="http://tombola.github.io/blog/2014/08/14/Markdown-syntax/"/>
-    <updated>2014-08-14T21:51:00+01:00</updated>
-    <id>http://tombola.github.io/blog/2014/08/14/Markdown-syntax</id>
+    <link href="http://localhost:4000//blog/2014/04/17/Markdown-syntax/"/>
+    <updated>2014-04-17T17:00:00+01:00</updated>
+    <id>http://localhost:4000//blog/2014/04/17/Markdown-syntax</id>
     <content type="html"><![CDATA[<p>Following on from <a href="http://tombola.github.io/geekery/2014/02/14/markdown-referencing/">a previous post</a>, I have made a simple <a href="https://github.com/tombola/ask_ref_filter">drupal module</a> to provide an extension to markdown.</p>
 
 <p>The point of the module is to allow academic support to create and edit highlighted referencing examples for the myriad of referencing examples that crop up with students. The examples display with consistent highlights and &lsquo;tooltips&rsquo; for each element of the reference.</p>
@@ -30,15 +30,15 @@
 
 <p>Then the resulting page will display as follows (the black tooltip is on hover):</p>
 
-<p><img src="http://tombola.github.io/images/referencing_highlights.png" alt="example reference" /></p>
+<p><img src="http://localhost:4000//images/referencing_highlights.png" alt="example reference" /></p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[What Are Computers For?]]></title>
-    <link href="http://tombola.github.io/blog/2014/03/26/What-are-computers-for/"/>
-    <updated>2014-03-26T00:00:00+00:00</updated>
-    <id>http://tombola.github.io/blog/2014/03/26/What-are-computers-for</id>
+    <link href="http://localhost:4000//blog/2014/03/26/What-are-computers-for/"/>
+    <updated>2014-03-26T16:00:00+00:00</updated>
+    <id>http://localhost:4000//blog/2014/03/26/What-are-computers-for</id>
     <content type="html"><![CDATA[<!--<div class="alert alert-info">I tend to use the word &#8216;technology&#8217; liberally, but I am almost always referring to computerised systems, and in the main those that make use of the world wide web.</div>&#8211;>
 
 
@@ -79,12 +79,12 @@
   
   <entry>
     <title type="html"><![CDATA[Prezi Desktop]]></title>
-    <link href="http://tombola.github.io/blog/2014/03/21/Prezi-Desktop/"/>
-    <updated>2014-03-21T00:00:00+00:00</updated>
-    <id>http://tombola.github.io/blog/2014/03/21/Prezi-Desktop</id>
+    <link href="http://localhost:4000//blog/2014/03/21/Prezi-Desktop/"/>
+    <updated>2014-03-21T16:00:00+00:00</updated>
+    <id>http://localhost:4000//blog/2014/03/21/Prezi-Desktop</id>
     <content type="html"><![CDATA[<p>The implied excitement above is slightly disingenuous. Prezi is a familiar tool to most people working in education by now, but also the cause of frequent (literal) headaches, and thus not a drop in replacement for powerpoint (unlike google presentations, but that is another post)</p>
 
-<p><a href="http://prezi.com/ubiqmwfo9dnp/dizzy/"><img src="http://tombola.github.io/images/prezi_screenshot.png" alt="prezi example" /></a></p>
+<p><a href="http://prezi.com/ubiqmwfo9dnp/dizzy/"><img src="http://localhost:4000//images/prezi_screenshot.png" alt="prezi example" /></a></p>
 
 <!--<iframe src="http://prezi.com/embed/ubiqmwfo9dnp/?bgcolor=ffffff&amp;lock_to_path=1&amp;autoplay=0&amp;autohide_ctrls=0&amp;features=undefined&amp;disabled_features=undefined" width="700" height="350" frameBorder="0" webkitAllowFullScreen="1" mozAllowFullscreen="1" allowfullscreen="1"></iframe>&#8211;>
 
@@ -136,9 +136,9 @@
   
   <entry>
     <title type="html"><![CDATA[Eye Tracking]]></title>
-    <link href="http://tombola.github.io/blog/2014/03/11/Eye-Tracking/"/>
-    <updated>2014-03-11T00:00:00+00:00</updated>
-    <id>http://tombola.github.io/blog/2014/03/11/Eye-Tracking</id>
+    <link href="http://localhost:4000//blog/2014/03/11/Eye-Tracking/"/>
+    <updated>2014-03-11T16:00:00+00:00</updated>
+    <id>http://localhost:4000//blog/2014/03/11/Eye-Tracking</id>
     <content type="html"><![CDATA[<p>Eye tracking is on the way.</p>
 
 <p>I know, we&rsquo;ve had it for years, but its been tucked away in usability labs, and it cost a bomb.</p>
@@ -162,9 +162,9 @@
   
   <entry>
     <title type="html"><![CDATA[Markdown vs Referencing]]></title>
-    <link href="http://tombola.github.io/blog/2014/02/14/markdown-referencing/"/>
-    <updated>2014-02-14T00:00:00+00:00</updated>
-    <id>http://tombola.github.io/blog/2014/02/14/markdown-referencing</id>
+    <link href="http://localhost:4000//blog/2014/02/14/markdown-referencing/"/>
+    <updated>2014-02-14T16:00:00+00:00</updated>
+    <id>http://localhost:4000//blog/2014/02/14/markdown-referencing</id>
     <content type="html"><![CDATA[<p>I am quite a fan of <a href="http://daringfireball.net/projects/markdown/syntax">Markdown</a> for simplifying the process of writing online content. As well as using it on this blog, I have been using a slightly personalised version to write notes while reading. I think I have now discovered another niche subset of uses for (an extended version of) Markdown within education, to provide concise explanatory descriptions for academic referencing systems.</p>
 
 <p>If you are not familiar with Markdown, it is basically a really simple way of generating HTML (HyperText Markup Language). If I write</p>
@@ -197,9 +197,9 @@
   
   <entry>
     <title type="html"><![CDATA[New Blog]]></title>
-    <link href="http://tombola.github.io/blog/2014/02/11/New-Blog/"/>
-    <updated>2014-02-11T00:00:00+00:00</updated>
-    <id>http://tombola.github.io/blog/2014/02/11/New-Blog</id>
+    <link href="http://localhost:4000//blog/2014/02/11/New-Blog/"/>
+    <updated>2014-02-11T16:00:00+00:00</updated>
+    <id>http://localhost:4000//blog/2014/02/11/New-Blog</id>
     <content type="html"><![CDATA[<p>I have a new blog. Intended subjects are Educational Technology, usability and accessibility, plus related issues.</p>
 
 <p>The blog doesn&rsquo;t have that much on it yet. I intend mainly to use it in association with <a href="https://twitter.com/tomreadings">twitter</a>, so if I post I will tweet a link. It also may look a little crude to start with. At some point I will jazz it up, but I am telling myself that to do so now would be procrastination..</p>
@@ -210,9 +210,9 @@
   
   <entry>
     <title type="html"><![CDATA[Simple Blogging]]></title>
-    <link href="http://tombola.github.io/blog/2014/02/10/simple-blogging/"/>
-    <updated>2014-02-10T00:00:00+00:00</updated>
-    <id>http://tombola.github.io/blog/2014/02/10/simple-blogging</id>
+    <link href="http://localhost:4000//blog/2014/02/10/simple-blogging/"/>
+    <updated>2014-02-10T16:00:00+00:00</updated>
+    <id>http://localhost:4000//blog/2014/02/10/simple-blogging</id>
     <content type="html"><![CDATA[<p><strong>This post is somewhat superceded by my move to <a href="https://medium.com/@tomreadings">medium.com</a></strong></p>
 
 <p>A blog seems a sensible thing to have, if only so that I have somewhere to write longer posts for reference on twitter.</p>

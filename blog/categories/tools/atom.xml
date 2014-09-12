@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Tools | tombola]]></title>
-  <link href="http://tombola.github.io/blog/categories/tools/atom.xml" rel="self"/>
-  <link href="http://tombola.github.io/"/>
-  <updated>2014-08-22T15:32:04+01:00</updated>
-  <id>http://tombola.github.io/</id>
+  <link href="http://localhost:4000//blog/categories/tools/atom.xml" rel="self"/>
+  <link href="http://localhost:4000//"/>
+  <updated>2014-09-12T09:54:24+01:00</updated>
+  <id>http://localhost:4000//</id>
   <author>
     <name><![CDATA[Tom Readings]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Prezi Desktop]]></title>
-    <link href="http://tombola.github.io/blog/2014/03/21/Prezi-Desktop/"/>
-    <updated>2014-03-21T00:00:00+00:00</updated>
-    <id>http://tombola.github.io/blog/2014/03/21/Prezi-Desktop</id>
+    <link href="http://localhost:4000//blog/2014/03/21/Prezi-Desktop/"/>
+    <updated>2014-03-21T16:00:00+00:00</updated>
+    <id>http://localhost:4000//blog/2014/03/21/Prezi-Desktop</id>
     <content type="html"><![CDATA[<p>The implied excitement above is slightly disingenuous. Prezi is a familiar tool to most people working in education by now, but also the cause of frequent (literal) headaches, and thus not a drop in replacement for powerpoint (unlike google presentations, but that is another post)</p>
 
 <p><a href="http://prezi.com/ubiqmwfo9dnp/dizzy/"><img src="/images/prezi_screenshot.png" alt="prezi example" /></a></p>
