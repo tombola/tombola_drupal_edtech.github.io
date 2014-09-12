@@ -4,7 +4,7 @@
   <title><![CDATA[tombola]]></title>
   <link href="http://localhost:4000//atom.xml" rel="self"/>
   <link href="http://localhost:4000//"/>
-  <updated>2014-09-12T13:56:57+01:00</updated>
+  <updated>2014-09-12T14:52:43+01:00</updated>
   <id>http://localhost:4000//</id>
   <author>
     <name><![CDATA[Tom Readings]]></name>
@@ -18,7 +18,7 @@
     <link href="http://localhost:4000//blog/2014/04/17/Markdown-syntax/"/>
     <updated>2014-04-17T17:00:00+01:00</updated>
     <id>http://localhost:4000//blog/2014/04/17/Markdown-syntax</id>
-    <content type="html"><![CDATA[<p>Following on from <a href="http://tombola.github.io/geekery/2014/02/14/markdown-referencing/">a previous post</a>, I have made a simple <a href="https://github.com/tombola/ask_ref_filter">drupal module</a> to provide an extension to markdown.</p>
+    <content type="html"><![CDATA[<p>Following on from <a href="http://tombola.github.io/blog/geekery/2014/02/14/markdown-referencing/">a previous post</a>, I have made a simple <a href="https://github.com/tombola/ask_ref_filter">drupal module</a> to provide an extension to markdown.</p>
 
 <p>The point of the module is to allow academic support to create and edit highlighted referencing examples for the myriad of referencing examples that crop up with students. The examples display with consistent highlights and &lsquo;tooltips&rsquo; for each element of the reference.</p>
 
