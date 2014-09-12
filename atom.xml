@@ -4,7 +4,7 @@
   <title><![CDATA[tombola]]></title>
   <link href="http://localhost:4000//atom.xml" rel="self"/>
   <link href="http://localhost:4000//"/>
-  <updated>2014-09-12T14:55:38+01:00</updated>
+  <updated>2014-09-12T14:56:50+01:00</updated>
   <id>http://localhost:4000//</id>
   <author>
     <name><![CDATA[Tom Readings]]></name>
@@ -180,7 +180,7 @@
 
 <p>Markdown really shines when compared to other methods of creating online content, such as <a href="http://en.wikipedia.org/wiki/WYSIWYG">wysiwyg</a> editors..</p>
 
-<p><img src="../images/wysiwyg_editor.png" alt="wysiwyg editor" /></p>
+<p><img src="http://localhost:4000//images/wysiwyg_editor.png"></p>
 
 <p>..because rather than the editor trying to guess what you intend to select and how you would like to combine various styles and formats, it gets precise instructions. This means that the output from markdown is much more reliably standardised.</p>
 
