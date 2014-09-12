@@ -47,35 +47,35 @@
   
   <url>
     <loc>http://localhost:4000//</loc>
-    <lastmod>2014-09-12T10:08:07+01:00</lastmod>
+    <lastmod>2014-09-12T11:22:52+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   
   <url>
     <loc>http://localhost:4000//blog/archives/</loc>
-    <lastmod>2014-09-12T10:08:07+01:00</lastmod>
+    <lastmod>2014-09-12T11:22:52+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>http://localhost:4000//blog/</loc>
-    <lastmod>2014-09-12T10:08:07+01:00</lastmod>
+    <lastmod>2014-09-12T11:22:52+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>http://localhost:4000//posts/</loc>
-    <lastmod>2014-09-12T10:08:07+01:00</lastmod>
+    <lastmod>2014-09-12T11:22:52+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>http://localhost:4000//old_</loc>
-    <lastmod>2014-09-12T10:08:07+01:00</lastmod>
+    <lastmod>2014-09-12T11:22:52+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
