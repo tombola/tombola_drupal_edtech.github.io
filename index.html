@@ -101,25 +101,31 @@
         <article class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
         <h1 class="entry-title">
 
-    <a href="/index.html">Markdown syntax</a>
+    <a href="/index.html">Custom Code in Drupal Content</a>
 
-
-    <small>for academic referencing guides</small>
 
 </h1>
-<div class="entry-content"><p>Following on from <a href="http://tombola.github.io/blog/2014/02/14/markdown-referencing/">a previous post</a>, I have made a simple <a href="https://github.com/tombola/ask_ref_filter">drupal module</a> to provide an extension to markdown.</p>
+<div class="entry-content"><p>It is a generally accepted <strong>bad idea</strong> to give users the ability to put unfiltered javascript or any other code into their content. It could cause any number of issues with the site, including security, and (especially within wysiwyg content) it is really hard to track down where the code is and what it was supposed to do.</p>
 
-<p>The point of the module is to allow academic support to create and edit highlighted referencing examples for the myriad of referencing examples that crop up with students. The examples display with consistent highlights and &lsquo;tooltips&rsquo; for each element of the reference.</p>
+<p>Having said this, with limited resources and supporting a large number of administrative users, I often find that I often have edge cases where we want some slightly custom layout or embedded content to be shown <em>within</em> content that is managed by a non techy user. This edge case might be re-used and become a staple part of the site/theme, at which point it is worth considering the &lsquo;right way&rsquo; to implement it, using a new field, a wysiwyg dialogue or something similar.</p>
 
-<p>As an example, if you write the following in the editor:</p>
+<h2>Example</h2>
 
-<pre><code>Reference:
-&gt;[THOMPSON, E. P.|author] [1966|year]. *[The Making of the English Working Class|title]*. [New York|place]: Vintage Books. 
-</code></pre>
+<p>As a very simple example - within a bootstrap based theme the administrators of several different (landing) pages have asked if I can add &lsquo;Call to Action&rsquo; buttons for appointment booking etc, in the same way I have done on the homepage (by styling a menu). The buttons really need to be placed in context within the body text, rather than just plonked at a specified place on every page, so in the first instance I can&rsquo;t necessarily just create a multiple instance field, or a menu block. With a bit more extended investigation I could work out several most likely scenarios and create different Display Suite layouts to position the content*, but as yet I don&rsquo;t know if this will ever be repeated.</p>
 
-<p>Then the resulting page will display as follows (the black tooltip is on hover):</p>
+<p>The page owner needs to be able to continue to edit the content easily and move the snippet/component around without coming to me. It <strong>might</strong> also be useful, on occasion, to use PHP code to configure some of these custom content elements (I know, I know!), but also they should allow for script inclusion etc (for infographics etc). So basically this involves an unfiltered code block(!).</p>
 
-<p><img src="/images/referencing_highlights.png"></p>
+<h2>Solution?</h2>
+
+<p>I was mulling all this over and I have a possible solution in mind which would allow me to provide custom code, but still allow the admin to move it around in their content (without breaking).</p>
+
+<p>The proposed solution is to add a <strong>field</strong> to the node type, accessable only by a selected developer role. It would accept multiple instances of unfiltered code, each associated with a machine readable key. An <strong>input filter</strong> would swap instances of <strong>[widget:key]</strong> in the body (or other text field) with the provided code. A checkbox would enable each snippet, allowing for it to be individually disabled for troubleshooting.</p>
+
+<p>The objective is low overhead for me to create quick customisations (prior to consolidating into planned features). This would hopefully allow me to avoid technical debt created by creating over-engineered solutions to one time problems, or hacking components around later once I see how they are being used. I should be able to easily locate problem code, and disable all/individual snippets without disrupting the site too much. Because the custom snippets of code each stored in a field, instances can be tracked down via the database to work out which deserve consolidation, or are problematic.</p>
+
+<p>I already have the start of a niggling feeling that this approach might not work out as expected long term, but I think I might try it out on a peripheral site and see how it pans out.</p>
+
+<p>* <em>I don&rsquo;t want to use panels - it seems like vast overkill for the majority of the page layouts we are considering, and in my opinion would add an additional administrative burden.</em></p>
 </div>
         </article>
       
@@ -141,6 +147,8 @@
   
   <div id="recent_posts" class="list-group">
     
+    <a class="list-group-item " href="/blog/2014/11/20/Custom-Code-in-Drupal-Body/">Custom Code in Drupal Content</a>
+    
     <a class="list-group-item " href="/blog/2014/04/17/Markdown-syntax/">Markdown Syntax</a>
     
     <a class="list-group-item " href="/blog/2014/03/26/What-are-computers-for/">What Are Computers For?</a>
@@ -148,8 +156,6 @@
     <a class="list-group-item " href="/blog/2014/03/21/Prezi-Desktop/">Prezi Desktop</a>
     
     <a class="list-group-item " href="/blog/2014/03/11/Eye-Tracking/">Eye Tracking</a>
-    
-    <a class="list-group-item " href="/blog/2014/02/14/markdown-referencing/">Markdown vs Referencing</a>
     
   </div>
 </section>

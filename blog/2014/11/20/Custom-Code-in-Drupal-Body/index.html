@@ -2,7 +2,7 @@
 <html class="no-js" lang="en">
 <head>
   <meta charset="utf-8">
-  <title>tombola</title>
+  <title>Custom Code in Drupal Content - tombola</title>
   <meta name="author" content="Tom Readings">
 
   
@@ -14,15 +14,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://localhost:4000//old_">
+  <link rel="canonical" href="http://localhost:4000//blog/2014/11/20/Custom-Code-in-Drupal-Body">
   <link href="/favicon.png" type="image/png" rel="icon">
   <link href="/atom.xml" rel="alternate" title="tombola" type="application/atom+xml">
 
   <!-- http://opengraphprotocol.org/ -->
   <meta name="twitter:card" content="summary_large_image">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="http://localhost:4000//old_">
-  <meta property="og:title" content="tombola">
+  <meta property="og:url" content="http://localhost:4000//blog/2014/11/20/Custom-Code-in-Drupal-Body">
+  <meta property="og:title" content="Custom Code in Drupal Content - tombola">
   
 
   <script src="/javascripts/libs/jquery/jquery-2.0.3.min.js"></script>
@@ -87,24 +87,42 @@
       <div id="main" class="container">
         <div id="content">
           <div class="row">
-  <div class="page-content col-md-9">
-    <div class="blog-index" itemscope itemtype="http://schema.org/Blog">
+  <div class="page-content col-md-9" itemscope itemtype="http://schema.org/Blog">
     <meta itemprop="name" content="tombola" />
     
     <meta itemprop="url" content="http://localhost:4000/" />
+    <article class="hentry" role="article" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
       
-      
-    </div>
-    <div class="blog-index">  
-  
-  
-  <h1 class="entry-title">
-
-    <a href="/old_index.html">Custom Code in Drupal Content</a>
+  <header class="page-header">
+    
+      <p class="meta text-muted text-uppercase">
+        
 
 
-</h1>
-<div class="entry-content"><p>It is a generally accepted <strong>bad idea</strong> to give users the ability to put unfiltered javascript or any other code into their content. It could cause any number of issues with the site, including security, and (especially within wysiwyg content) it is really hard to track down where the code is and what it was supposed to do.</p>
+
+
+
+
+
+
+
+
+
+
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2014-11-20T00:00:00+00:00"  data-updated="true" itemprop="datePublished dateCreated">20 Nov 2014</time>
+        
+      </p>
+    
+    
+    <h1 class="entry-title" itemprop="name headline">
+        Custom Code in Drupal Content
+        
+    </h1>
+    
+  </header>
+
+
+<div class="entry-content clearfix" itemprop="articleBody description"><p>It is a generally accepted <strong>bad idea</strong> to give users the ability to put unfiltered javascript or any other code into their content. It could cause any number of issues with the site, including security, and (especially within wysiwyg content) it is really hard to track down where the code is and what it was supposed to do.</p>
 
 <p>Having said this, with limited resources and supporting a large number of administrative users, I often find that I often have edge cases where we want some slightly custom layout or embedded content to be shown <em>within</em> content that is managed by a non techy user. This edge case might be re-used and become a staple part of the site/theme, at which point it is worth considering the &lsquo;right way&rsquo; to implement it, using a new field, a wysiwyg dialogue or something similar.</p>
 
@@ -126,30 +144,67 @@
 
 <p>* <em>I don&rsquo;t want to use panels - it seems like vast overkill for the majority of the page layouts we are considering, and in my opinion would add an additional administrative burden.</em></p>
 </div>
+
+
+      <footer>
+        <p class="meta text-muted">
+          
+  
+
+<span class="glyphicon glyphicon-user"></span> <span class="byline author vcard" itemprop="author" itemscope itemtype="http://schema.org/Person">Posted by <span class="fn" itemprop="name">Tom Readings</span></span>
+
+          
+
+
+
+
+
+
+
+
+
+
+
+
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2014-11-20T00:00:00+00:00"  data-updated="true" itemprop="datePublished dateCreated">20 Nov 2014</time>
+          
+
+
+        </p>
+        
+          <div class="sharing">
+  
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://localhost:4000//blog/2014/11/20/Custom-Code-in-Drupal-Body/" data-via="tomreadings" data-counturl="http://localhost:4000//blog/2014/11/20/Custom-Code-in-Drupal-Body/" >Tweet</a>
+  
+  
+  
 </div>
 
-    <ul class="pager">
-      
-        <li class="previous disabled"><a href="#">&larr;&nbsp;Older</a></li>
-      
-      <li><a href="/blog/archives">Blog Archives</a></li>
-      
-        <li class="next disabled"><a href="#">Newer&nbsp;&rarr;</a></li>
-      
-    </ul>
+        
+        
+          <ul class="meta text-muted pager">
+            
+            <li class="previous"><a href="/blog/2014/04/17/Markdown-syntax/" title="Previous Post: Markdown syntax">&laquo; Markdown syntax</a></li>
+            
+            
+          </ul>
+        
+      </footer>
+    </article>
+    
   </div>
 
   
-    <aside class="sidebar col-md-3">
-      
-        <section class="panel panel-default">
+  <aside class="sidebar col-md-3">
+    
+      <section class="panel panel-default">
   <div class="panel-heading">
     <h3 class="panel-title">Recent Posts</h3>
   </div>
   
   <div id="recent_posts" class="list-group">
     
-    <a class="list-group-item " href="/blog/2014/11/20/Custom-Code-in-Drupal-Body/">Custom Code in Drupal Content</a>
+    <a class="list-group-item active" href="/blog/2014/11/20/Custom-Code-in-Drupal-Body/">Custom Code in Drupal Content</a>
     
     <a class="list-group-item " href="/blog/2014/04/17/Markdown-syntax/">Markdown Syntax</a>
     
@@ -222,8 +277,8 @@
 
 
 
-      
-    </aside>
+    
+  </aside>
   
 </div>
 
