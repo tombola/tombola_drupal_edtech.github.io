@@ -31,7 +31,7 @@ Markdown really shines when compared to other methods of creating online content
 
 Standardisation is of course key to referencing and citation for academic works, and if a student/researcher is expected to be precise, then the explanation given to them must be equally precise. Whereas in most cases we are happy enough wysiwyg-ing our way through support resources, this is surely a situation where markdown can really help provide a structurally sound html base to create multiple citation examples etc. We can reliably style, highlight and comment them in detail, without worrying that the whole sections might (unnoticed) turn to gobbledy gook because I only selected 4 characters out of 5.
 
-<div class="alert alert-info">
+<div class="notice">
 I should probably say here that I am well aware of the many brilliant reference management tools available to academics and students, and I realise they have the potential to take a lot of unnecessary faf out of preparing citations and bibliographies. There are however a lot of **different** tools, and they do not always have the same success manipulating bibliographic data, especially when captured from web resources. So it remains important to explain the principles of consistent referencing.
 </div>
 
