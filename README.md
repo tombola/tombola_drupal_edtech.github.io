@@ -16,7 +16,7 @@ rather than the normal
 
     jekyll serve
 
-!Important - when testing locally amend _config.yml ``url`` (comment out) to navigate the local site rather than skipping off to github.
+**Important** - when testing locally amend _config.yml ``url`` (comment out) to navigate the local site rather than skipping off to github.
 
 
 ###Navigation
@@ -26,3 +26,9 @@ change the navigation links at _data/navigation.yml
 ###Posting
 
     octopress new post "Title of post"
+
+###Design
+
+Use [Grunt](http://gruntjs.com/getting-started) to perform minification etc. Look at the Gruntfile for details. Jekyll should handle the sass itself.
+
+**Remember** - the local site will be loading css from github (and your sass changes will not be reflected) if you forget to change config url (above).

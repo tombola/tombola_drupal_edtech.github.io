@@ -7,6 +7,7 @@ comments: false
 
 If you are genuinely interested enough in my ramblings to subscribe for an email digest of this blog then I thank you, and please go for it (below).
 
+Alternatively, an [RSS feed](http://tombola.github.io/feed.xml) is also available.
 
 <!-- Begin MailChimp Signup Form -->
 <link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
@@ -18,7 +19,6 @@ If you are genuinely interested enough in my ramblings to subscribe for an email
 <div id="mc_embed_signup">
 <form action="//treadingsdesign.us2.list-manage.com/subscribe/post?u=fac8c3c2a86db55d5e4ed195b&amp;id=c5f043b0d6" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
     <div id="mc_embed_signup_scroll">
-    <h2>Subscribe to an email digest of this blog?</h2>
 <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
 <div class="mc-field-group">
     <label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
