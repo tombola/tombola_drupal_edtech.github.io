@@ -8,6 +8,7 @@ tags: []
 image:
   feature:
 date: 2014-02-14T17:54:27+00:00
+comments: yes
 ---
 
 

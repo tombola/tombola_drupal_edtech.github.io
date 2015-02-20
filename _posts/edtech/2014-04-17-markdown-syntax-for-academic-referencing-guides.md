@@ -9,6 +9,7 @@ tags: []
 image:
   feature:
 date: 2014-04-17T17:36:42+00:00
+comments: yes
 ---
 
 Following on from a previous post, I have made a simple drupal module to provide an extension to markdown.

@@ -8,6 +8,7 @@ tags: []
 image:
   feature:
 date: 2014-11-20T17:31:19+00:00
+comments: yes
 ---
 
 It is a generally accepted **bad idea** to give users the ability to put unfiltered javascript or any other code into their content. It could cause any number of issues with the site, including security, and (especially within wysiwyg content) it is really hard to track down where the code is and what it was supposed to do.
