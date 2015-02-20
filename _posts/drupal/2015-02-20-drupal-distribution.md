@@ -27,5 +27,7 @@ The sites I have created have evolved to meet the requirements of their users. D
 
 Now that I can see the way these sites are being used, and content/design policies have emerged that structure (admin) user's interactions consistently across each site, I believe I should be able to redistribute the content and processes, largely into one large site (still using multiple domains). Where large sets of unique functionality must be preserved, it will be **these** aspects that become their own sites. Some of these peripheral functions will have pushed outside the cms envelop, and may no longer need to be based on drupal at all, though housed (sym-linked) in a sub directory within the drupal installation. Hopefully once I have also detached the design components from the drupal theme I will be able to preserve consistent user experience regardless of the underlying system.
 
-The result of this detachment process will hopefully be that I have a nearly out of the box drupal installation, with configuration simple enough to be captured in code 
+The result of this detachment process will hopefully be that I have a nearly out of the box drupal installation, with configuration simple enough to be captured in code.
+
+Once I have made some progress I will endeavour to provide a concise update here on my blog (for my benefit more than anything else).
 
