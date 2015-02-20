@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Drupal Consolidation"
+title: "Drupal Sites Consolidation"
 modified:
 categories: drupal
 excerpt:
