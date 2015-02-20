@@ -1,6 +1,6 @@
 ---
-layout: page
-title: ""
+layout: category-index
+title: "Drupalisms"
 date: 
 modified:
 excerpt:
@@ -9,3 +9,4 @@ image:
   feature:
 ---
 
+Here are some things I have writ about my experiences with drupal.

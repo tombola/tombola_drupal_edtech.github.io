@@ -1,7 +1,10 @@
 # Site navigation links
 
-- title: who?
+- title: Who?
   url: /about/
 
 - title: Older Posts
   url: /posts/
+
+- title: Drupal
+  url: /drupal.html
