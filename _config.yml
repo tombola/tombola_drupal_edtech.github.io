@@ -41,8 +41,9 @@ owner:
     ad-slot: 
   bing-verify: 
   github: tombola #username
-  drupal: autopoietic #username
+  drupal: autopoietic
   stackoverflow: #http://stackoverflow.com/users/123456/username
+  drupalanswers: 19551
   linkedin: #username
   instagram: #username
   lastfm: #username
