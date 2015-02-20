@@ -16,6 +16,8 @@ rather than the normal
 
     jekyll serve
 
+!Important - when testing locally amend _config.yml ``url`` (comment out) to navigate the local site rather than skipping off to github.
+
 
 ###Navigation
 
