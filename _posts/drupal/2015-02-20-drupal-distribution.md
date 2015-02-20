@@ -8,6 +8,7 @@ tags: []
 image:
   feature:
 date: 2015-02-20T11:19:07+00:00
+comments: yes
 ---
 
 ## Where I am at
