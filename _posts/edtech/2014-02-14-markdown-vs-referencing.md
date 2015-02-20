@@ -2,7 +2,7 @@
 layout: post
 title: "Markdown vs Referencing"
 modified:
-categories: 
+categories: edtech
 excerpt:
 tags: []
 image:

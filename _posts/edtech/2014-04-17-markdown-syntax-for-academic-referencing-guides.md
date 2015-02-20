@@ -3,6 +3,7 @@ layout: post
 title: "Markdown Syntax for Academic Referencing Guides"
 modified:
 categories: 
+    edtech
 excerpt:
 tags: []
 image:
