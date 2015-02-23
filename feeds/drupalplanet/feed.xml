@@ -5,8 +5,8 @@
 	<channel>
 		<title>Drupal Planet posts by autopoietic</title>
 		<description>Drupal posts by d.o autopoietic (github tombola)</description>		
-		<link>{{ site.url }}/drupalplanet</link>
-		<atom:link href="{{ site.url }}/drupalplanet/feed.xml" rel="self" type="application/rss+xml" />
+		<link>{{ site.url }}/feeds/drupalplanet</link>
+		<atom:link href="{{ site.url }}/feeds/drupalplanet/feed.xml" rel="self" type="application/rss+xml" />
 		{% for post in site.categories.['drupal'] limit:10 %}
 			{% if post.tags contains "drupalplanet" %}
 				<item>
