@@ -27,6 +27,12 @@ change the navigation links at _data/navigation.yml
 
     octopress new post "Title of post"
 
+If you want to create a [draft](http://jekyllrb.com/docs/drafts/) just put it in the _drafts folder instead of posts and serve as so (draft)
+
+    bundle exec jekyll serve --drafts
+
+When the post is ready for publishing just move it into _posts (or any subfolder in _posts).
+
 ###Design
 
 Use [Grunt](http://gruntjs.com/getting-started) to perform minification etc. Look at the Gruntfile for details. Jekyll should handle the sass itself.
