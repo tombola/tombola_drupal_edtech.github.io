@@ -32,3 +32,7 @@ change the navigation links at _data/navigation.yml
 Use [Grunt](http://gruntjs.com/getting-started) to perform minification etc. Look at the Gruntfile for details. Jekyll should handle the sass itself.
 
 **Remember** - the local site will be loading css from github (and your sass changes will not be reflected) if you forget to change config url (above).
+
+###Dissemination
+
+Some posts from this blog are to be aggregated by [Drupal Planet](https://www.drupal.org/planet). If a post is [suitable](https://www.drupal.org/planet/guidelines) for this purpose, **tag** it with *drupalplanet*, and it will be included in the rss at drupalplanet/feed.xml.

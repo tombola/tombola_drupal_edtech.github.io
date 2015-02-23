@@ -8,20 +8,22 @@
 		<link>{{ site.url }}/drupal</link>
 		<atom:link href="{{ site.url }}/drupal/feed.xml" rel="self" type="application/rss+xml" />
 		{% for post in site.categories.['drupal'] limit:10 %}
-			<item>
-				<title>{{ post.title | xml_escape }}</title>
-				{% if post.author.name %}
-					<dc:creator>{{ post.author.name | xml_escape }}</dc:creator>
-				{% endif %}        
-				{% if post.excerpt %}
-					<description>{{ post.excerpt | xml_escape }}</description>
-				{% else %}
-					<description>{{ post.content | xml_escape  | truncatewords:500 }}</description>
-				{% endif %}
-				<pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
-				<link>{{ site.url }}{{ post.url }}</link>
-				<guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
-			</item>
+			{% if post.tags contains "drupalplanet" %}
+				<item>
+					<title>{{ post.title | xml_escape }}</title>
+					{% if post.author.name %}
+						<dc:creator>{{ post.author.name | xml_escape }}</dc:creator>
+					{% endif %}        
+					{% if post.excerpt %}
+						<description>{{ post.excerpt | xml_escape }}</description>
+					{% else %}
+						<description>{{ post.content | xml_escape  | truncatewords:500 }}</description>
+					{% endif %}
+					<pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+					<link>{{ site.url }}{{ post.url }}</link>
+					<guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
+				</item>
+			{% endif %}
 		{% endfor %}
 	</channel>
 </rss>

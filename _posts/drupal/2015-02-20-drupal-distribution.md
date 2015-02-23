@@ -4,7 +4,7 @@ title: "Drupal Sites Consolidation"
 modified:
 categories: drupal
 excerpt:
-tags: []
+tags: [drupalplanet]
 image:
   feature:
 date: 2015-02-20T11:19:07+00:00

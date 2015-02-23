@@ -4,7 +4,7 @@ title: "Custom Code in Drupal Content"
 modified:
 categories: drupal
 excerpt:
-tags: []
+tags: [drupalplanet]
 image:
   feature:
 date: 2014-11-20T17:31:19+00:00
