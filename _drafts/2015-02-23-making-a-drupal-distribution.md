@@ -16,7 +16,7 @@ I have reached a point where I feel I must clean up a [multiple site setup](http
 
 I am effectively going to rebuild the sites into a single, simpler site (using Spaces), and exile extraneous functions to loosely coupled apps, where they will hopefully have less of an impact on the maintainability of the site. I will be building from all that I have learnt about the platform's usage and re-using components, so fingers crossed this will not be nearly as painful as the slow requirements-led iterative creation of the individual sites first time round.
 
-I want to wrap this all up neatly and put it under proper version control, so I am re-visiting install profiles, features and distributions in order to get the configuration into [re-usable] code.
+I want to wrap this all up neatly (and under version control), so I am re-visiting install profiles, features and distributions in order to get the configuration into [re-usable] code.
 
 
 ##Capturing the functionality
@@ -65,6 +65,8 @@ I will want to be able to rattle through the installation without having to fill
 
 {% highlight php %}
 
+<?php
+
   define('MAINTENANCE_MODE', 'install');
   define('DRUPAL_ROOT', getcwd());
 
@@ -106,6 +108,7 @@ I will want to be able to rattle through the installation without having to fill
 
 install_drupal($settings);
 
+?>
 {% endhighlight %}
 
 To run the install profile again I will need to drop all the tables in the database (by recreating it):
