@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Making a Drupal Distribution"
+title: "Making a Drupal Distribution #1"
 modified: 2015-24-23T16:26:33+00:00
 categories: drupal
 excerpt:
@@ -8,7 +8,7 @@ tags: [drupalplanet]
 date: 2015-02-23T16:59:33+00:00
 ---
 
-#Making a Drupal Distribution / Install Profile
+##Starting a Drupal Distribution / Install Profile
 
 I have made drupal install profiles for projects before, but that was some while ago. The process relied quite heavily on features, and I found that difficulties [easily] capturing configuration in this way, paired with a lack of time, led my nice clean distribution to diverge over time from the live site it was intended to [re]create. So distros fell by the wayside.
 
@@ -58,11 +58,12 @@ To work through the process of building up my existing site (with modifications)
 1. check config/functionality preserved accurately
 1. record functional test (probably selenium)
 
+<a name="multisite"></a>
 <div class="post__update"></div>
 
 \* I am writing this post whilst figuring out the steps I describe (it is quite helpful to me). It has just occurred to me that dev1 and dev2 could, and probably should, share the same code base, rather than relying on me to keep them in sync. I think this would require me to use *multisites*. To this end I will point two local domains at the site and use drupal's multisite to have a separate db for **dev2**.
 
-
+<a name="unattended"></a>
 I will want to be able to rattle through the installation without having to fill in forms, so I will be running a [non-interactive installation](http://heyrocker.com/content/installing-drupal-7-non-interactively) from the command line, utlising ``install_drupal``. this method will be facilitated by a php script in the root of my installation, which has the significant advantage that it will also be under version control. I could run the install directly from the [commandline](http://www.coderintherye.com/install-drupal-7-using-drush) using drush [site-install](http://www.drushcommands.com/drush-6x/core/site-install), but then I would have to configure my install with ``key=value`` rather than a nice neat PHP array, which could get complicated once I include my own distribution option pages.
 
 ``php install.test.php``
