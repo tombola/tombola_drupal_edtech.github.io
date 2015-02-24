@@ -3,7 +3,7 @@ layout: post
 title: "Making a Drupal Distribution #1"
 modified: 2015-24-23T16:26:33+00:00
 categories: drupal
-excerpt:
+excerpt: "<p>Recreating and simplifying a multiple site platform by creating a re-usable distribution.</p> <p>#1 Getting started.</p>"
 tags: [drupalplanet]
 date: 2015-02-23T16:59:33+00:00
 ---
