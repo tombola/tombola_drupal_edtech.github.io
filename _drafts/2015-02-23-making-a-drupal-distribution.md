@@ -28,7 +28,7 @@ I will start by capturing the functionality of the MVP version of my site.
 For the first step, I created a make file from the development clone of the production site to use in the installation profile.
 
 {% highlight bash %}
-    drush generate-makefile base.make --exclude-versions
+    $ drush generate-makefile base.make --exclude-versions
 {% endhighlight %}
 
 This will get all the relevant modules installed, which is a good start, though obviously I will then need to get them all configured to replicate the functionality of my site. That is where [Features](drupal.org/project/features) will come in.
@@ -115,5 +115,7 @@ install_drupal($settings);
 
 To run the install profile again I will need to drop all the tables in the database (by recreating it):
 
-    mysql -u my_db -e "DROP DATABASE my_db; CREATE DATABASE my_db;"
+{% highlight mysql %}
+  mysql -u my_db -e "DROP DATABASE my_db; CREATE DATABASE my_db;"
+{% endhighlight %}
 
