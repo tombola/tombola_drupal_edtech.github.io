@@ -4,7 +4,7 @@ title: "Making a Drupal Distribution"
 modified: 2015-24-23T16:26:33+00:00
 categories: drupal
 excerpt:
-tags: []
+tags: [drupalplanet]
 date: 2015-02-23T16:59:33+00:00
 ---
 
