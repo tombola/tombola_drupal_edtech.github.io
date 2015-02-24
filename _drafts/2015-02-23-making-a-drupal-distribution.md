@@ -124,6 +124,8 @@ To run the install profile again I will need to drop all the tables in the datab
 
 ----
 
-Anyway, this forms my starting point, I will write up any further steps (and inevitable issues) as I get to them (and get a minute).
+Anyway, this forms my starting point, next up will be creating and capturing some config (with features), and adding those details to my make file in an install profile.
+
+I will write up any further steps (and inevitable issues) as I get to them (and get a minute).
 
 <div class="btn btn-info btn-disabled">Next exciting installment</div>
