@@ -2,7 +2,7 @@
 
 title:            tombola
 locale:           en_UK
-url:              http://tombola.github.io
+url:              
 
 
 # Jekyll configuration
@@ -44,7 +44,8 @@ owner:
   drupal: autopoietic
   stackoverflow: #http://stackoverflow.com/users/123456/username
   drupalanswers: 19551
-  linkedin: #username
+  medium: tomreadings #username
+  linkedin: # treadings #username
   instagram: #username
   lastfm: #username
   tumblr: #username
