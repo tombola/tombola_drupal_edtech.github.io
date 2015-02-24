@@ -10,7 +10,7 @@ date: 2015-02-23T16:59:33+00:00
 
 #Making a Drupal Distribution / Install Profile
 
-I have made a fairly complex drupal distribution before, but that was some time ago. The process relied quite heavily on features, and I found that difficulties [easily] capturing configuration in this way, paired with a lack of time, led my nice clean distribution to diverge over time from the live site it was intended to [re]create. So distros fell by the wayside.
+I have made drupal install profiles for projects before, but that was some while ago. The process relied quite heavily on features, and I found that difficulties [easily] capturing configuration in this way, paired with a lack of time, led my nice clean distribution to diverge over time from the live site it was intended to [re]create. So distros fell by the wayside.
 
 I have reached a point where I feel I must clean up a [multiple site setup](http://tombola.github.io/drupal/drupal-distribution/), and in the process I would like to end up with a better documented and fully reproducable final product, aimed at adaption and re-use.
 
