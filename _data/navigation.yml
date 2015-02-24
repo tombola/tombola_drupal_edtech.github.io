@@ -1,13 +1,16 @@
 # Site navigation links
 
 - title: Who?
-  url: /about/
+  url: /about
 
 - title: Older Posts
-  url: /posts/
+  url: /posts
 
 - title: Drupal
-  url: /drupal/
+  url: /drupal
 
 - title: edTech
-  url: /edtech/
+  url: /edtech
+
+- title: subscribe
+  url: /subscribe
