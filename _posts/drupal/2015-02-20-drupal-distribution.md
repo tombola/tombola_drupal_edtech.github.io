@@ -3,7 +3,7 @@ layout: post
 title: "Drupal Sites Consolidation"
 modified:
 categories: drupal
-excerpt:
+excerpt: "The motive for refactoring a stable multiple (not multi) site setup to make use of hindsight."
 tags: [drupalplanet]
 image:
   feature:
