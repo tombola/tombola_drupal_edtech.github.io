@@ -6,7 +6,7 @@ categories: drupal
 excerpt: "<p>Recreating and simplifying a multiple site platform by creating a re-usable distribution.</p> <p>#1 Getting started.</p>"
 tags: [drupalplanet]
 date: 2015-02-23T16:59:33+00:00
-comments: true
+comments: yes
 ---
 
 ##Starting a Drupal Distribution / Install Profile
