@@ -1,3 +1,4 @@
+_config.yml
 _site
 .sass-cache
 .DS_Store
@@ -8,3 +9,4 @@ node_modules
 _asset_bundler_cache
 Gemfile.lock
 npm-debug.log
+_config
