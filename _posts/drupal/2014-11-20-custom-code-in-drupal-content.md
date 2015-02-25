@@ -3,7 +3,7 @@ layout: post
 title: "Custom Code in Drupal Content"
 modified:
 categories: drupal
-excerpt:
+excerpt: "Circumventing the big bad no."
 tags: [drupalplanet]
 image:
   feature:
