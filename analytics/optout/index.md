@@ -5,4 +5,4 @@ tags: [about, Jekyll, theme, responsive]
 modified: 2015-02-25-T15:02:11+00:00
 ---
 
-Opt out of being tracked by google analytics on this website by clicking <a onclick="ga('set', 'dimension1', 'HideMe');" href="URL">this link</a>
+Opt out of being tracked by google analytics on this website by clicking <a onclick="ga('set', 'dimension1', 'HideMe');" href="optedout">this link</a>
