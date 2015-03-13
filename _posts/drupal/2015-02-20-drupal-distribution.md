@@ -11,6 +11,10 @@ date: 2015-02-20T11:19:07+00:00
 comments: yes
 ---
 
+<div class="post__update"></div>
+
+I have subsequently altered my proposed strategy slightly, detailed [here](http://drupal.stackexchange.com/questions/151392/should-i-use-spaces-or-domain-access-to-share-separate-content-between-subdoma)
+
 ## Where I am at
 
 I have been intermittently working with a drupal 7 multiple site 'platform' for several years, which originally emerged from a single site. I am the sole maintainer. The platform is not based on a drupal 'multi-site' configuration, as the shared codebase model seemed more hindrance than feature. Instead the (four) sites share a common pattern of base configuration, each cloned (direct copies of files and db) from an early version of the build. A set of custom modules is kept up to date as one git repo that is cloned into each of the sites. Similarly a base theme, and sub themes for all of the sites are also held in a single repo and cloned into each site. More recently, I created an entirely separate site to aggregate and index these sister sites (via feeds) to provide a more advanced, yet loosely coupled [search facility](https://github.com/fxplus/search_apex).
